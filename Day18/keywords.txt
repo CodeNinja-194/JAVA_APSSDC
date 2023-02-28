@@ -1,0 +1,15 @@
+Keyword
+try	------The try block governs the statements that are enclosed within it 
+          and defines the scope of exception handler associated with it. Try block follows catch or finally or both.
+catch--- The catch block is used to handle the exception. 
+         It must be preceded by try block which means we can’t use catch block alone. It can be followed by finally block later.
+finally---When an exception is raised, the statement in the try block is ignored,
+           some times it is necessary to process certain statements irrespective of wheather an exception is raised or not,
+		   the finally block is used for this purpose.
+throw---The throw class is used to call exception explicitly. 
+           You may want to throw an exception when the user enters a wrong login ID and pass word,
+		   you can use throw statement to do so. The throw statement takes an single argument, 
+		   which is an Object of exception class.
+throws---The throws statement species the list of exception that has thrown by a method. 
+         If a method is capable of raising an exception that is does not handle,
+		 it must specify the exception has to be handle by the calling method, this is done by using the throw statement.

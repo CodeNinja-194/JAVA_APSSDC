@@ -1,0 +1,142 @@
+Controle Statements
+   It is the fundamental requirement used to control the flow of execution of a program.
+    Three type:
+	1.Selection Statement or Decision Making statements
+	
+	If
+	
+	if Statemnet is user to print the Statement if condition is true.
+	
+	syntax:
+	  if (condition)
+	  {
+	  statement1
+	  }
+	  
+	  
+	  
+	  
+	  
+	if-else
+	  If-else Statemnet is used to print the statemnt if condition is true
+	  it prints the if Statements otherwise it goes to else Statement.
+	
+	
+	syntax
+	
+	if (condition)
+	{
+	Statement1;
+	}
+	else
+	{
+	Statement2
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	nestedif
+	
+	An if Statement present inside  and If Satement is known as Nested if Statement.
+	
+	Syntax
+	
+	if (condition)
+	{
+	Statement1
+     if (condition)
+		{
+		statement2
+		}
+	else 
+	{
+	Statement3
+	}
+	}	 
+	
+	
+	
+	Switch
+	
+	Switch Statement is used to execute a single statemnt from diffent condition.
+	 the data types used in switch statement are short,int,byte,enum ect.
+	
+	
+	
+	
+	
+	2.Iteration or Looping Statements
+	
+	Looping statements are used to excute a set of statements repetadly until a particular condition is satisfied.
+	
+	1.for
+	  
+	  syntax:
+	  
+	  for (intialization;condition;increment/decrement)
+	  {
+	  statement ;
+	  }
+	  
+	  
+	  enhanced for loop
+	   syntax:
+	   
+	  for (datatype : list/array)
+	  
+	
+	2. while
+	
+	sytax 
+	while (condition)
+	{
+	statements(s);
+	}
+	
+	3. do while
+	
+	
+	syntax
+	do{
+	statement
+	}
+	while(condition)
+	
+	
+	
+	
+	
+	
+	
+	
+	3.Jump or Branching statements
+	
+	
+	1.continue
+	
+	 this statement is mostly used inside the loop.
+	 
+	 syntax:
+	 
+	 continue;
+	 
+	 
+	 
+	break
+	
+	syntax:
+	break;
+	
+	
+	------------------------------- Java String ---------------------
+	
+	
+	
+	

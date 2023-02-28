@@ -1,0 +1,170 @@
+Collection in java
+
+  framework-- means It is MVC--
+  M-Model  v-VIEW  C-Controller
+  
+  it is an architecture  to store and manipulate the group of objects.
+ collection and Collection framwork
+ 
+ Collection means -- a unit of object .
+ Colection framework-- it is architecture which represents 
+  set of classes and interfaces
+  
+  Hierarchy of Collection framework.
+  
+  Package: java.util.*;
+                
+				Collection(group of objects)
+				
+		List			Queue		map   	set		
+		
+
+List Interface
+
+1. it can store the elements in ordered collection.
+2. it can have duplicate elements.
+
+Syntax:
+
+List <Datatype> li = new ArratList();
+
+
+1.ArrayList
+2.LinkedList
+3.Vector
+
+add()
+addall()
+add Element()
+capacity()clear()containsall()
+
+
+4.Stack	
+
+linear data structure to store the elements.
+LIFO--Lastin first out.
+1,2,3,4
+
+
+4,3,2,1//pop method
+
+3,2,1
+
+Queue --> Interface:
+
+First in first out order.(FIFO)
+
+1.Dqueue-->Interface
+  it is an interface that supports elements insertion and removal from both ends.
+  dqueue--double ended queue
+  
+  boolean add();
+  object poll();
+  
+2.ArrayDeque---> Class
+
+this class is used to present the facility of using deque and resizable array.
+
+1. it is same Queue.add or remove elements from both ends.
+2.Null elements are not allowed.
+3.it is not thred safe.
+4.it is faster than linked list and stack.
+
+
+3.PriorityQueue ---> Class (no FIFO)
+
+
+
+Set:
+
+Set Interface ,it represents the values in unorderd set of elements. 
+it does not allow dulicate elements.
+syntax:
+
+set<datatype> s1=new Hastset or LinkedHashSet or TreeSet<datatype>
+
+
+1.HashSet
+
+Hash table for storing or manipulating elements.
+
+1. it stores the elements using Hash Table or Hashing.
+2.It contains Unique Values.
+3.It allows null values.
+4.it is non syncronized.
+5.it does not allow insertion order.it allows the order by using hash table.
+
+
+
+Note:
+
+Hash Table-->Entity[] Entity (key,value)
+
+Dafaulty capacity of string in hash table is 16
+
+Loading factor:  no of key divided by capacity.
+
+dafault value =0.75
+
+2.Linked hashSet
+
+ it extend hashset,abstractset and implements set,collection
+
+
+1. it contains unique elements same as hash set.
+2. it is non synchronised class.
+3. it allows null elements.
+4. it maintains insertion order.
+
+3.Treeset
+
+it extend Abstractset and implements Set interface.
+ --> it provides ascending order.
+ --> it does not allow null values.
+ --> it is non synchronized.
+ 
+ note: pollFirst() and pollLast()
+  
+4.SortedSet
+
+
+Map:
+
+it uses Entity () where key and value are present.
+
+
+1.TreeMap
+ 
+ TreeMap(key,value) extend AbstractMap(key,value) implements NavigableMap
+
+
+ --> it contains values based on key.
+ -->it contains unique elements.
+ -->it can not have null key but it can have null vales.
+ -->it is also non synchronised.
+ --> it also provides asending order.
+ --> it does not allow duplicate keys,it allows duplicate values.
+ 
+ 
+
+2.LinkedHashMap
+
+it extend HashMap and implents Map
+
+-->It contains values based on keys.
+-->it contains Unique Elements.(K,V)
+--> it may have one null key and multiple null values.
+--> it maintains insertion order.
+
+
+
+3 Hash Map:
+	
+Iterator interface:
+ it provides the facility of iterating the elements in forwad direction only.
+ method in iterator interface;
+1.public  boolean hasNext()
+2.public Objectnext()
+3 public void remove()
+ 
+	  

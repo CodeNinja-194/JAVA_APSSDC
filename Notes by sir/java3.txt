@@ -1,0 +1,285 @@
+ Java Applications:
+ 
+ 4 types
+   1. Standalone Application
+   it is also known as desktop applications.
+   it is a software we need to install in Sysytem.
+    examples:
+	
+	vlc player,antivires ..ect
+	
+	
+	
+   
+   
+   
+   2.Web Application
+   
+     an application that runs on server side and cresate dydnamic pages is called web appplication
+   example:
+   
+    servlets,
+	spring,
+	hibernate ect
+   
+   
+   3 Enterprise Application
+    it is an application that is distributed in nature  are called as enterprise PPLICATION.
+     EXAMPLES:
+	 
+	 facebook,gmail,baNKING APPLICATIONS ect .
+	 
+	 
+   4.Mobile Application
+     It is an application which is created for mobile devices.
+	  example:
+	  Android appplication
+	  
+	  
+	  
+	  JAVA Platforms/Editions
+	  
+	  4 Platforms/Editions
+	  
+	  1.JAVA SE
+	  2. JAVA EE
+	  3. JAVA ME
+	  4. JAVAFX
+   
+   
+   
+   Object Oriented Programing 
+   
+   
+   advanteges:
+     1.it is easier for maintance
+	 2.it is secure because it provides data hiding methodologies.
+	 
+	 Simula ----first Object oriented programming language
+	 but partially
+	 
+	 a programming language where every thing is represented as objct,
+	 is known as truly object oriented programming language.
+	 example: java
+	 
+	 
+	 the main aim of using Oop's is to implememt real world entity.
+	 
+	 1.Object and Class
+	 2.Abstarction
+	 3.Inheritance
+	 4.Polymorphism
+	 5 .Encapsulation
+	 
+	 
+	 
+	 Couplig,cohesion,association,Aggregation,composition
+	 
+	 
+	 object:
+	 
+	 An entity that has state and behavior is know as an object.
+	 
+	 example:
+	  chair---state- colour,shape; behavior  sitting
+	  
+	  
+	  An object is used to define an insatnce of class.
+	  it contains address and it takes some space in mempory.
+	  
+	  
+	  Class:
+	  
+	  Collection of objects or group of objects is called as class.
+	  
+	  
+	  Abstarction:
+	  
+	  
+	 Hididng internal details and showing functionlity is known abstraction.
+	 
+	 
+	 example--  Database,ATM Macbhine,PHONE call  ect..
+	 
+	  In java we are using abstarct class and interface to achieve abstration.
+	  
+	  if a class is declered as abstract then it is known as abstract class.
+	  
+	rules or   properties of Abstraction:
+	
+	    1. An abstarct class must be declared with an abstract keyword.
+		2 it can have both abstract and non-abstract methods.
+		
+		if it contains abstract method method means the call must be abstract
+		3. it cannot be instantiated.
+		4.it can have final methods
+		5.it can have consteructors and static methods.
+		  
+		  
+		  Abstarct Method:
+		  
+		  if we declared a method as abstract then we call it as abstract method.
+		  
+		  abstract void printStatus();
+		  
+		  
+		
+		Interface :
+		
+		
+		it is a mechanism to achieve abstraction in java
+		
+		
+		
+		Polymorphism:
+		
+		
+		it is used to perform single action in diffent wayts.
+		
+		poly + Morphs
+		many + forms
+		
+		two types:
+		1.Compile time Polymorphism -- over loading
+		2.runtime polymorphism ---over riding
+		
+		
+		
+		
+		Method Overloading in java
+		
+		In a class we have differnt methods having same name  with different in parameters.
+		
+		it is called as Method overloading
+		
+		Method Overriding in java
+		
+		if a sub class or child class provides the specific implementation of the method that has been
+		declared by one of its parent class or super class ,it known as method over riding.
+		
+		
+		1.method name must have the same name as parent class
+		2. method must have same parameters as in parent class3
+		3.it must provide IS-A relationship(inheritance)
+		
+		
+		
+		Difference b/w method overload and method overriding:
+		
+		
+		
+		Method Overloading
+		1.it is used to increase the readability of the program.
+		2.It id performed within same class.
+		3.parameters must be different
+		4.example for compile time polymorphism
+		over
+		Method Overriding
+		1.it is used to provide specific implementation othe method
+		2.it is performed in two classes.
+		3.must and should have same parameters
+		4.example for run time polymorphism
+		
+		
+		Encapsulation :
+		
+		It is the process of Combining code and data together in to a sing unit.
+		
+		Here we are using getter and setter methods.
+		
+		
+		for obtaining fully encapsulated class we have to make all data members has private.
+		
+		
+		Inheritance or IS-A relationship:
+		 it is a mechanism in java where one object acquires all the properties
+		 and behavior of a parent object.
+		 
+		 
+		 1. Code reusability
+		 2.for method over riding(runtime polymorphism)
+		 
+		 
+		 
+		 syntax:
+		 
+		 class childclass extends parentclass{
+		 
+		 //methods or data members
+		 
+		 }
+		 
+		 Types of Inheritance:
+		 
+		 1.Single Inheritance
+		 
+		 one childclass extends parent class.
+		  
+		  
+		  
+		 
+		 2. multilevel Inheritance
+		 
+		 it has chain of inheritance.
+		 
+		 class A ,class B, class C
+		 
+		 
+		 class A---
+		 
+		 class B extends class A
+		 
+		 Class C extend class B
+		 
+		 3.Hierarchical Inheritance
+		  
+		 
+		 
+		 when two or more classes inherits a single class.
+		 
+		 4.multiple Inheritance(Not Supported in java)
+		 
+		 
+		 
+		 
+		 
+		 5.Hybrid Inheritance( Combibnation multilevel and multiple)
+		 
+		 
+		   Interface:
+		   
+		   it is a blueprint of class.it has static and abstract methods.
+		
+		 syntax:
+		  interface interfacename{
+		  
+		 // static method and abstract methods
+		  
+		 // public,dafault and final data members.
+		  
+		  }
+		  
+		  Interface A{
+		  
+		  int B=10;
+		  void run();
+		  
+		  }
+		  
+		  it goes to complier to JVM
+		   
+		   
+		   Interface A{
+		   
+		   public static final int B=10;
+		   public abstract void run();
+		   
+		   }
+		
+		
+		
+	  
+	  
+	  
+	 
+	 

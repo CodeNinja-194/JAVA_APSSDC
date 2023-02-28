@@ -1,0 +1,120 @@
+notes by ramya murali
+
+
+
+
+
+
+
+
+
+
+
+
+local variable?
+local variables are created with in the method.
+it can be used inside the same method.
+initializing local variables before its usage it's mandate
+
+creatind method A
+A()
+{
+int x=10;
+}
+B()
+{
+int y=20;
+System.out.println(x);
+}
+//error
+
+wht is gobal variable?
+Global variables are created with in the class
+global variables can be used in any method.
+they r two types :
+1.static variables.
+2.non static variables.
+byte,long,int,long----->0
+float,double---->0.0
+char----->empty character.
+Boolean-->false.
+string--->Null.
+
+Different types of methods:
+1.method vth argument
+In ordered to complete the operations,Additional input are neccessary,these types of methods are called method with arguments.
+public static run(int i,double q,.....)
+2.method vthout argument
+
+method with return type:
+public static int kick()
+{
+----
+return 9;
+}
+public static void isprime(int n)
+{
+---
+}
+method overloading :same method name but with different arguments
+1.Btn method s number of arguments should be differ.
+2.btwn methods arguments type should be differ.
+3.order of argument should be differ
+
+Class Demo
+{
+public static void main(String args[])
+{
+
+}
+public  static void test(int a,double b)
+{
+System.out.println("in testof int,double");
+}
+public  static void test(int a,int b)
+{
+System.out.println("in testof int,int");
+}
+public  static void test(int a,int b,int c)
+{
+System.out.println("in testof int,double");
+}
+
+}
+
+
+class Run
+{
+psvm(String[] args)
+{
+System.out.println("hi");
+}
+psvm(String[] args)
+{
+System.out.println("main string args");
+main(7);
+main(3,3,);
+}
+psvm(int i)
+{
+System.out.println("main int args");
+}
+psvm(double i)
+{
+System.out.println("main double args");
+}
+}
+
+
+class car{
+string carname;
+double speed;
+string colour;
+}
+
+
+
+
+
+
+

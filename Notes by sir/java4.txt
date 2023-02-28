@@ -1,0 +1,34 @@
+Arrays in Java.
+
+array means collection of similar types of elements
+
+java array :
+
+ it is an object which contains elements of similar data type.
+ 
+ 
+ 
+ var  a=1
+    b=2
+	c = 6
+	d =8
+	
+	Syntax :
+	
+	int(data type)  [] A(reference variable);
+	
+	advantages:
+	
+	1. Code optimization
+	2 .Random Access
+	
+	types of Array:
+	 1. Single Dimensional
+	  datatype [] reference variable;
+	 
+	 2 multidimensional array
+	 
+	Syntax :
+	datatype [][] reference variable;
+	 
+	 

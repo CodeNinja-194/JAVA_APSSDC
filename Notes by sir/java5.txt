@@ -1,0 +1,67 @@
+String:
+
+it is used to represent sequence of Charaters.
+
+characters---char vales ex : a,b,c,...ect
+
+Java String.
+
+JAVA String is called as immutable String.
+
+it is an object that represents sequence of char values.
+  ex: char[] ch={'a','b','c'}
+  
+  String S= "abc";
+  
+  two way to create String object.
+  
+  1.By String literal
+  
+  ex : String S= "abc";
+  
+  String B="abc";
+  
+  
+  
+  
+  2 .new keyword.
+  
+  
+  ex:  String s=new String("GOOD");
+  
+  
+  
+  1.compare()
+  
+  There are three ways to compare Strings.
+  
+  1. by equlas() method
+  2.by == operator
+  3. compareTo()  0,-1,1
+  
+  2concat()
+  
+  
+  3. equla()
+  4.split()
+  5.replace ()
+  
+  String s="   S h y a m    ";
+  
+  String s="S h y a m";
+  
+  
+  
+  String Buffer is thread safe and String Builder is not
+
+
+  thread safe
+  
+  
+  
+  java toString();
+  
+  
+  
+  
+  

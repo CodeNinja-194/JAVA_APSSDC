@@ -1,0 +1,178 @@
+Exception:
+
+it is an abnormal condition.
+
+which interuptes the normal flow of execution.
+
+1 to 10 statements.
+ 7 th statement, error or ecception.
+ Stops the excutioon of flow..
+ 
+
+ Handling:
+ 
+  means handle or recity 
+  
+  Exception Handling:
+    it is used to handle the runtime exceptions.
+	
+	
+	Exceptions:
+	
+	1.Checked Exception ---> occurs on conmpile-time 
+	ex: IO Excetions, SQLExection
+	
+	2 uncheckked Exception ---> occurs on run time.
+	
+	ex; nullpoint exception,Arthimatic Exception.
+	3.Error  --> we can nor change or rectify the exception.
+	 Virtual machine Error,Out of memeory error.
+	
+	Java Keywords;
+	
+	1.try{
+	//Block of Code.
+	}
+	2.catch{
+	
+	//Exception block/
+	}
+	
+	it can be followed by finally block.
+	3.finally--> used to execute the code wheather exception occures or not.
+	4.throw--> it throw exception
+	5.throws--->it delclre exception ,it is always used  with method signature.
+  
+  
+  
+  java.lang.Throwable class
+  
+               Throwable
+			   
+			   
+	Exceptions
+	
+	1.Checked --> IO Exception
+	              SQl Exception   
+				  Class not found exception
+
+	2. Unchecked or runtime --> Arthimatic
+								Null ponit exception
+								number format exception
+				indes out of bound exception
+				
+				
+	ERROR: -->Stack over flow
+				Virtual Machine error
+				out of memory error.
+				
+				
+				
+Points to remember whe using multiple catch:
+
+1. at a time only one exception occurs and at a time only one catch block is excuted.
+	
+	
+	Nested Try Block:
+	
+	a try block within a try block is known as nested try block:
+	
+	Synatax;
+	try{
+	
+	Statement();
+	Statement1();
+	try{
+	
+	Statement2();
+	Statement3();
+	}
+	Catch()
+	{
+	catch statement;
+	}
+	}
+	Catch ()
+	{
+	Statement;
+	}
+	
+	Throw Exception:
+	
+	It is used to throw an exception explicitly.
+	 syntax:
+	 
+	 throw exception;
+	 
+	 
+	 
+	 final ,finally and finalize
+	 
+	 final is a keyword.
+	 finally is a block .
+	 finalizer is a method.
+	 
+	 
+	 MultiThreading:
+	  it is a process of executing multiple threads simultaneously.
+	  
+	  Thread:
+	  
+	   it is a unit of process.
+	   
+	   multiprocessing + multithreading = Multitasking
+	   
+	   Adavntages:
+	   
+	  1.we can perform many operations.
+	  2.Threds are independent.
+	  
+	  Life cycle of thread.
+	  
+	  
+	 5 States.
+	 
+	 1.new-->create instance of thread class.
+	 2.runnable-->Start();
+	 3.running-->
+	-- 4.non-runnaable-->
+	 5.teminated
+	 
+	 creation of thread:
+	 
+	 1.by extending Thread class
+	 
+	 methods used in thread class:
+	 1 void start();
+	 2. void run();
+	 3. void sleep();
+	 4 .void join();
+	 5. string getName();
+	 6.void setName();
+	 
+	 Constructors in Thread class:
+	  1.Thread()
+	  2.Thread(String Name)
+	  3.Thread (runnable r)
+	  4 Thread (String namre.runnable r)
+	 
+	 2 by implementing Runnable interface
+	 
+	 void run();
+	 
+	 
+	 
+	 Priority Thread;
+	 
+	 in between 1 to 10;
+	 
+	 it depends up on JVM.
+	 1. public static int min_priority-->1
+	 2. public static int max_priority-->10
+	 3. public static int norm_priority.-->5
+	 
+	 Daemon Thread:
+	 
+	 
+	 
+	 
